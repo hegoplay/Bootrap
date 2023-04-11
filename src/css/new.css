@@ -1,0 +1,249 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#left {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+
+#right {
+    display: flex;
+    width: 350px;
+    justify-content: left;
+    align-items: center;
+    padding-right: 0px;
+}
+
+#center {
+    padding-left: 50px;
+    margin-top: 11px;
+}
+
+.leftitem {
+    color: #b0b1b2;
+}
+
+.rightitem {
+    color: #b0b1b2;
+}
+
+#searchbox {
+    display: flex;
+    height: 32px;
+    width: 400px;
+    border: 1px solid #d7d9dd;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type=text] {
+    border-style: hidden;
+}
+
+#background {
+    width: 100%;
+    height: 512px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+#background #title {
+    position: relative;
+    left: 145px;
+    top: 60px;
+    color: #323842;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    height: 500px;
+    width: 300px;
+}
+
+.center {
+    display: inline-block;
+    margin: 70px 150px;
+}
+
+.listProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.money {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.notice {
+    position: absolute;
+    border: 1 solid #ffc970;
+    background-color: #ffc970;
+    border-radius: 20px;
+    right: 12px;
+    top: 0px;
+    font-size: 14px;
+    padding: 7px;
+    color: #97671a;
+}
+
+#title-1 {
+    width: 100%;
+}
+
+#title-1 .button-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 67px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6.67%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+#title-1 .button-left:link,
+#title-1 .button-left:hover:visited {
+    background-color: none;
+    color: #459d7a;
+}
+
+#title-1 .button-left:hover,
+#title-1 .button-left:hover:active {
+    background-color: #459d7a;
+    color: #ecf5f1;
+}
+
+#title-1 .button-right {
+    float: right;
+}
+
+#title-1 .button-right#sort:link,
+#title-1 .button-right#sort:visited {
+    display: flex;
+    text-decoration: none;
+    height: 68px;
+    background-color: #f3f4f6;
+    width: 158px;
+    justify-content: center;
+    align-items: center;
+    color: #6f7681;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#title-1 .button-right#sort:hover,
+#title-1 .button-right#sort:active {
+    background-color: #d2d2d2;
+}
+
+#title-2 {
+    position: relative;
+}
+
+#title-1 .button-right#search {
+    display: flex;
+    height: 68px;
+    width: 310px;
+    border: none;
+    border-bottom: 2px solid #d7d9dd;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1.6%;
+}
+
+#title-1 .button-right#search input::placeholder {
+    font-size: 23px;
+}
+
+input::placeholder {
+    color: #e6e8ec;
+}
+
+footer {
+    display: flex;
+    width: 98.2%;
+    background-color: #1d2128;
+    height: 570px;
+    color: #d8dbe0;
+}
+
+footer .left {
+    margin: 7% 0 5% 10%;
+    display: flex;
+    width: 52%;
+}
+
+footer .right {
+    margin: 7% 10% 5% 0%;
+    display: flex;
+    width: 28%;
+}
+
+.left .column {
+    width: 25%;
+}
+
+.left .column a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #d8dbe0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.left .column .title {
+    font-size: 30px;
+    margin-bottom: 11.5px;
+}
+
+.right .column {
+    width: 100px;
+}
+
+.right #mail {
+    border: 2px solid #636771;
+    border-radius: 15px;
+    display: flex;
+    width: 560px;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right #mail input::placeholder {
+    color: #adb1bb;
+    font-size: 21px;
+}
+
+.right #mail input[type="button"] {
+    height: inherit;
+    width: 163px;
+    font-size: 25px;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    background-color: #459d7a;
+    color: #ebf5f1;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
